@@ -51,6 +51,25 @@ git push origin feature_x
 git tag 1.0.0  35df273
 ````
 
+```sh
+本地仓库的历史记录
+git log
+
+查看某一个人的记录
+git log --author=yayxs
+
+```
+
+```sh
+通过 ASCII 艺术的树形结构来展示所有的分支, 每个分支都标示了他的名字和标签
+git log --graph --oneline --decorate --all
+```
+
+```sh
+替换本地的改动 filename 是改动的文件名
+git checkout -- <filename>
+```
+
 ## 很棒的 github 项目
 
 - [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
