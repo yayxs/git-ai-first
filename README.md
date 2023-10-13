@@ -27,6 +27,19 @@ git commit -m "代码提交信息"
 执行此命令后 改动已经提交到了 HEAD
 ```
 
+```sh
+git push origin main
+提交到远程的main分支
+```
+
+```sh
+git checkout -b feature_x
+
+
+推送到远程的分支
+git push origin feature_x
+```
+
 ## 很棒的 github 项目
 
 - [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
