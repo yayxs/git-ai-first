@@ -126,6 +126,11 @@ git tag -ln
 git push origin --tags
 ```
 
+```
+查看本地的config
+git config --local --list
+```
+
 ## 很棒的 github 项目
 
 - [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
@@ -133,7 +138,3 @@ git push origin --tags
 - [https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
 
 - [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
-
-```
-
-```
