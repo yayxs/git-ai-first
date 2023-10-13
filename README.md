@@ -70,6 +70,62 @@ git log --graph --oneline --decorate --all
 git checkout -- <filename>
 ```
 
+## 稍微复杂一点
+
+```sh
+使用远程最新的
+git fetch --all && git reset --hard origin/main
+
+Fetching origin
+HEAD is now at 0d6ab89 远程的是最新的
+```
+
+```sh
+git diff
+工作区和暂存区的不同
+
+展示本地仓库中任意两个 commit 之间的文件变动
+
+git diff id1 id2
+```
+
+```sh
+展示本地分支关联远程仓库
+
+git branch -vv
+```
+
+```sh
+所有的远程分支
+git branch -r
+origin/HEAD -> origin/main
+  origin/feature1
+  origin/feature_x
+  origin/main
+  origin/pr
+  origin/rebase
+```
+
+```sh
+远程分支和本地分支的对应关系
+git remote show origin
+
+删除本地的分支
+git branch -d <local-branchname>
+删除远程的分支
+git push origin --delete <remote-branchname>
+```
+
+```sh
+查看标签
+git tag -ln
+```
+
+```sh
+推送所有的标签
+git push origin --tags
+```
+
 ## 很棒的 github 项目
 
 - [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
