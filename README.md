@@ -40,11 +40,16 @@ git checkout -b feature_x
 git push origin feature_x
 ```
 
-```sh
+````sh
 更新远程的分支
  git pull <remote> <branch>
  git pull origin main
 ``
+
+```sh
+创建tag
+git tag 1.0.0  35df273
+````
 
 ## 很棒的 github 项目
 
@@ -53,4 +58,7 @@ git push origin feature_x
 - [https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
 
 - [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
+
+```
+
 ```
