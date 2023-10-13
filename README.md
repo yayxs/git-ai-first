@@ -131,10 +131,30 @@ git push origin --tags
 git config --local --list
 ```
 
+## 规范 Type
+
+- [angular.js type](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type)
+
+- feat: 一个新的功能
+- fix: 错误修复
+- docs: 仅仅文档修改
+- style: 不影响代码的含义 空格 格式化 少分号等等
+- refactor: 不修复错误 也没有新功能
+- perf: 提高性能的代码修改
+- test: 测试相关
+- chore: 构建过程 辅助工具 库的更改
+
+## .github
+
+`.github` 目录通常在一个 GitHub 项目中使用，用于存放 GitHub 提供的一些特性和工具的配置文件。以下是 .github 目录中可能包含的一些文件或子目录：
+
+- ISSUE_TEMPLATE 文件夹 :用于创建 issue 模板
+- PULL_REQUEST_TEMPLATE 文件夹：用于创建 pull request 模板
+
 ## 很棒的 github 项目
 
-- [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
+- [learnGitBranching](https://github.com/pcottle/learnGitBranching)
 
-- [https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
+- [refined-github](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
 
-- [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
+- [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
