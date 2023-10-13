@@ -40,6 +40,12 @@ git checkout -b feature_x
 git push origin feature_x
 ```
 
+```sh
+更新远程的分支
+ git pull <remote> <branch>
+ git pull origin main
+``
+
 ## 很棒的 github 项目
 
 - [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
@@ -47,3 +53,4 @@ git push origin feature_x
 - [https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf/related)
 
 - [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
+```
