@@ -1,9 +1,34 @@
-## 什么是 git
+## 什么是 Git ?
 
 git 分布式版本管理系统
 管理历史记录的数据库
 本地数据库、远程数据库
 远程数据库配有专门的服务器 多人共享建立的
+
+## 一些工具 / 网站
+
+- [GitButler 版本控制客户端 https://github.com/yayxs/git-learn](https://github.com/yayxs/git-learn) 由 Tauri/Rust/Svelte 提供支持
+
+## Git 命令
+
+#### git config 相关
+
+```sh
+
+git config user.name
+
+git config user.email
+
+git config --local user.name "yayxs"
+
+git config --local user.email "yayxs@gmail.com"
+
+
+
+git config --local --list  # 查看本地的config
+
+
+```
 
 ## 简明指南
 
@@ -124,11 +149,6 @@ git tag -ln
 ```sh
 推送所有的标签
 git push origin --tags
-```
-
-```
-查看本地的config
-git config --local --list
 ```
 
 ## 规范 Type
