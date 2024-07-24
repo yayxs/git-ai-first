@@ -30,6 +30,12 @@ git config --local --list  # 查看本地的config
 
 ```
 
+### 重置
+
+```sh
+git reset # 取消 git add . 操作
+```
+
 ## 简明指南
 
 - [git 简明指南](https://rogerdudler.github.io/git-guide/index.zh.html)
